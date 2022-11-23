@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.head-container > div {  
+
+    background-color: #fff;
+    padding: 25px;
+    font-size: 16px;
+    color: #555;
+}
+
+.icon-li i {
+    padding-left: 15px;
+}
+
+.list-main ul {
+    display: block;
+    text-decoration: none;
+}
+
+.list-main li {
+    display: inline-block;    
+    position: relative;   
+    overflow: hidden;
+}
+
+.main {
+    width: 50px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;    
+}
+
+.mainProduct {
+    width: 60px;
+    height: 30px;
+    position: relative;
+}
+
+.line1 {
+    width:45px;
+    height: 6px;
+    position: absolute;
+    border-bottom: 2px solid #333; 
+    left: 0;
+}
+
+.list-main a {
+    text-decoration: none;
+    color: #555;
+}
+
+.line {
+    width:45px;
+    height: 6px;
+    position: absolute;
+    border-bottom: 2px solid #333;
+    left: -45px;
+    transition: .2s linear;   
+}
+
+.line2 {
+    width: 100px;
+    height: 6px;
+    position: absolute;
+    border-bottom: 2px solid #333;
+    left: -100px;
+    transition: .2s linear; 
+}
+
+.main2 {
+    width: 110px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;    
+}
+
+.main2:hover .line2 {
+    transform: translateX(100px);
+}
+
+.list-main li:hover .line {
+    transform: translateX(47px);
+}
+
+.logoimg {
+    transform: scale(0.5,0.5);    
+}
+
+.downList1 {
+    visibility: hidden;
+}
+
+.HomeStyle {}
+
+/*----------------main1--------------------------*/
+.main1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #eee;
+    width: 100%;
+}
+
+.main1 > div {
+    background-color: #eee;
+    color: #333;
+    line-height: 1.5;
+    margin: 30px;
+}
+
+.listMain1{
+    display: block;
+    list-style-type: none;
+}
+
+.smCair {
+    height: 70px;
+    width: 70px;
+}
+
+.center-img {
+    transform: scale(3,3);
+}
+
+.imgBorder {
+    border: .5px solid #777 ;
+}
+
+.chairBg {
+    width: 330px;
+    height: 330px;
+    background-image: url(https://goyacdn.everthemes.com/demo-decor/wp-content/uploads/sites/2/2019/07/afteroom-dining-chair-150x150.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.chairBig {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    justify-content: space-between;
+}
+
+.chairBig i {
+    margin-top: 165px;
+    color: #eee;
+}
+
+.chairBig:hover i {
+    color: #555;
+    background-color: #fff;
+    margin-left: 20px;
+    transition: .3s;
+    font-size: 14px;
+}
+
+.chairBig:hover .lft i {
+    transform: translateX(-10px);
+    transition: .3s;
+}
+/*-------------*/
+.mHome {
+    width: 30%;
+}
+
+.main1Home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 300px;
+}
+
+.main1Home > div {
+   background-color: grey;
+   padding: 25px;
+}
+
+.noneDecor {
+    text-decoration: none;
+    color: #333;
+    padding: 3px;
+}
+
+.pay {
+    padding: 5px;
+    font-size: 18px;    
+}
+
+.star {
+    height: 20px;
+    width: 20px;
+    background-image: url(/img/star.png);
+    background-size: cover;
+}
+
+.pieces {
+    display: inline-block;
+    line-height: 2.4;
+    width: 20%;
+    border: 1px solid #888;
+    font-size: 16px;
+    background-color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+
+.pieces i {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    padding-top: -5px;
+    color: #555;
+    font-size: 12px;
+    text-align: center;   
+}
+
+.pieces i:hover {
+    background-color: #eee;
+}
+
+.black {
+    display: inline-block;
+    width: 50%;
+    background-color: black;
+    color: #fff;
+    line-height: 2.4;
+    border: 1px solid black;
+    text-align: center;
+    transition: .3s;
+}
+
+.black:hover {
+    background-color: #555;
+}
+
+.black-grey {
+    display: inline-block;
+    width: 50%;
+    background-color: #bbb;
+    line-height: 2.4;
+    border: 1px solid #bbb;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 15px;
+}
+
+.black-grey:hover {
+    background-color: #aaa;
+    color: #222 ;
+    transition: .3s;
+}
+
+.homeftr1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.homeftr1 > div {    
+    font-size: 12px;
+    text-decoration: none;
+    color: #555;
+    margin: 5px;
+}
+
+.homeftr1 .sku {
+    margin-left: 5px;    
+}
+
+.living {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.lvg  {
+    position: relative;
+    transition: .2s linear;
+}
+
+.aNoDec {
+    text-decoration: none;
+    color: #333;
+}
+.living:hover .line {
+    transform: translateX(20px);
+}
+
+.living:hover {
+}
+
+.hftrlist {
+    position: relative;
+    overflow: hidden;
+}
+
+.hftrlist a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.line {
+    width:45px;
+    height: 6px;
+    position: absolute;
+    border-bottom: 2px solid #333;
+    left: -45px;
+    transition: .2s linear;   
+}
+
+.hftrlist:hover .line {
+    transform: translateX(45px);
+}
+
+.share {   
+    font-size: 16px;
+}
+
+.share i {
+    margin: 10px;
+}
+
+.share i:hover {
+    color: black;
+}
+
+/*--------------------main2--------------------*/
+.designMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #777;
+    box-shadow: 1px  #777;
+    padding: 15px;
+}
+
+.designMain >div {
+    color: #333;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+.design1 {
+    padding: 100px 100px 100px 30px;
+    line-height: 2;
+}
+
+.designh2 {
+    display: inline-block;
+    color: chocolate;
+    font-size: 20px;
+    letter-spacing: 3px;    
+}
+
+.h2line {
+   display: inline-block;
+   height: 5px;
+   width: 100px;
+   border-top: 1px solid #555;
+   margin-left: 20px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.design1 p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.designimg {
+    height: 400px;
+    width: 600px;
+    margin: 10px 50px 10px 5px;
+}
+
+/*--------------addition------------------------*/
+.addition {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.addition > div {
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+.tableAdd {
+    margin: 30px 20px 50px 200px;
+    border-spacing: 20px;
+}
+
+.tableAdd td {
+    padding-left: 50px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.review > div {
+    width: 60%;
+}
+
+.review-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    width: 60%;
+}
+
+.review-item > div {
+
+}
+
+.revstar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userp {
+    padding-top: 5px;
+    padding-left: 60px;
+    margin-bottom: 10px;
+   
+}
+
+.name-user {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 2;
+    position: relative;
+    top: -10px;
+}
+
+.userimg {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    margin-right: 5px;
+}
+
+.user-data {
+    color: #777;
+}
+
+.addReview {
+    margin-top: 35px;
+    margin-left: 35%;
+    width: 30%;
+    align-items: center;
+    border: 1px solid #333;
+    line-height: 3;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.addReview a {
+    text-decoration: none;
+    color: #333;
+}
+
+.theadimg {
+    width: 300px;
+    height: 300px;
+    background-image: url("https://goya.everthemes.com/demo-decor/wp-content/uploads/sites/2/2019/07/roundhouse-table-black-900x900.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.relatedImg {
+    width: 300px;
+    height: 300px;
+}
+
+.radio-block ul {
+    list-style-type: none;
+}
+
+.radio {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+
+.black {
+    background-color: black;    
+}
+
+.green {
+    background-color: green;
+}
+
+.grey {
+    background-color: grey;
+}

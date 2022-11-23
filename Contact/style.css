@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    background: rgba(234, 240, 212, 0.952);
+
+}
+
+.box {
+    width: 300px;
+    height: 70vh;
+    padding: 40px;
+    border-radius: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: hsl(320,69%,61%);
+    text-align: center;
+    transition: .2s;
+}
+
+.box:hover{
+    box-shadow: 0 1px 1px 1px rgba(48, 46, 46, 0.555);
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type = 'text'] {
+    border: 0;
+    background: rgba(238, 238, 238, 0.199);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: .25s;
+}
+
+.box input[type = 'text']:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box input[type = 'text']:hover {
+    box-shadow: 0 1px 1px rgba(51, 51, 51, 0.479);
+}
+
+.box input[type = 'submit'] {
+    border: 0;
+    background: #eee;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: #333;
+    border-radius: 24px;
+    transition: .25s;
+    cursor: pointer;
+}
+
+.box input[type = 'submit']:hover {
+    background:#fff;
+    color: hsl(320,69%,61%);
+}
+
+textarea{
+    width: 200px;
+    height: 100px;
+    border: 2px solid #3498db;
+    background: rgba(238, 238, 238, 0.068);
+    color: #fff;
+}
+
+textarea:focus{
+    outline: none;
+    border: 2px solid #2ecc71;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: block;
+    height: 3rem;
+    width: 6rem;
+    line-height: 3rem;
+    text-align: center;
+    background: hsl(320,69%,61%);
+    border-radius: 5px;
+    color: #fff;
+}
+
+a:hover {
+    background: linear-gradient(to left,hsl(320,69%,61%),hsl(300,69%,61%));
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="content">
+            <div class="imgBx">
+                <img src="img/photo_2022-09-12_11-12-23.jpg" alt="image">
+            </div>
+            <h2>Лилит Асатрян <br><span>Junior Web-программист</span></h2>
+        </div>
+        <ul class="navigation">
+            <li>
+                <span>Полная занятость</span>
+            </li>
+            
+            <li>
+                <span>Дата рождения:</span> 26.03.1990г
+            </li>
+
+            <li>
+                <span>Город:</span> Самара
+            </li>
+
+            <li>
+                <span>Контакты:</span>8(964)979-42-09, asatryanl397@gmail.com 
+            </li>
+
+            <li>
+                <span>Образование:</span>Вышее, Национальный Политехнический университет Армении, c 09.2007 по 06.2011
+            </li>
+
+            <li>
+                <span>Факультет:</span>Компьютерные системы и информатика
+            </li>
+
+            <li>
+                <span>Дополнительное образование:</span>Курсы по HTML,CSS,JS
+            </li>
+
+            <li>
+                <span>Профессиональные навыки:</span>HTML, CSS, SCSS, JS, Git, GitHub
+            </li>
+
+            <li>
+                <span>Знание языков:</span>Армянский, русский, английский
+            </li>
+
+            <li>
+                <span>Дополнительная информация:</span>Я отвественный, спокойный, неконфликтный, есть желание развиваться в сфере программирования. Github страница: https://github.com/lilit397
+            </li>
+        </ul>
+
+        <div class="toggle">
+            <ion-icon name="chevron-down-outline"></ion-icon>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script>
+        const card = document.querySelector('.card');
+        const cardtoggle = document.querySelector('.toggle');
+
+        cardtoggle.onclick = function() {
+            card.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>

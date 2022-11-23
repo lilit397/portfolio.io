@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('/fonts/PostNoBillsColombo-Bold.ttf');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-info {
+    height: 44px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.header-info .vector2 {
+    position: relative;
+}
+
+.header-info .vector1 {
+    position: absolute;
+    top: 5px;
+    left: -5px;
+}
+
+.header-info span {
+    font-family: PT Sans;
+    font-size: 12px;
+    height: 16px;
+    width: 107px;
+    color: #969696;
+}
+/* navigation list */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background-color: #0F0F0F;
+}
+
+nav .logo-min {
+    font-family: Post No Bills Colombo ;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    font-family: PT Sans;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 18px;
+    padding: 31px 20px;
+}
+/* header */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 810px;
+    background: linear-gradient(0deg, rgba(61, 59, 59, 0.5), 
+        rgba(15, 15, 15, 0.5)), url('../images/Rectangle3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 320px;
+    border: 2px solid #fff;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-family: Post No Bills Colombo ;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    text-align: center;
+}
+
+.line {
+    border-top: 2px solid #fff;
+    width: 179px;
+    height: 0;
+    margin: 7px;
+}
+
+header .logo .peterburg {
+    width: 100%;
+    font-family: PT Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 16px;
+    line-height: 24px;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+/* section1 */
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    background-color: #000;
+}
+
+h2 {
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding: 93px 0 20px 0;
+    text-align: center;
+}
+
+h2 span {
+    font-size: 32px;
+}
+
+.lline {
+    border-top: 1px solid #fff;
+    width: 120px;
+    margin: 30px;
+}
+
+.clock {
+    height: 214px;
+    width: 215px;
+}
+
+table {
+    margin-bottom: 50px;
+    border-spacing: 15px;
+}
+
+table,th,td {
+    color: #fff;
+    font-size: 18px;
+
+}
+
+td {
+    margin-right: 15px;
+}
+
+td .val {
+    font-size: 16px;
+}
+
+th {
+    height: 325px;
+    width: 280px;
+    background-color: #191B1C;
+}
+
+/* media tbl */
+.tbl1{
+    visibility: visible;
+}
+
+.tbl2 {
+    display: none;
+}
+
+.tbl4 {
+    display: none;
+}
+/* div2 */
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 45%;
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)),
+    url('../images/Rectangle\ 8.jpg'), #000000;
+    background-size: cover;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line3 {
+    border-bottom: 1px solid #fff;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.button {
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;    
+    padding: 0 20px;
+}
+
+/* section 2  */
+
+.div3 {
+    background: linear-gradient(0deg, rgba(65, 50, 50, 0.5), rgba(15, 15, 15, 0.5)), #000000;
+    background-image: url("../images/Rectangle\ 9.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    width: 100%;
+}
+
+.pk18 {
+    width: 50%;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 21px;
+}
+
+/* article */
+
+article {
+    width: 100%;
+    background-color: #0F0F0F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article ul {
+    list-style-type: none;
+    margin-left: 30px;
+    margin-bottom: 74px;
+}
+
+article ul li {
+    display: inline-block;
+    color: #fff;
+}
+
+/* footer */
+
+footer {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ftr1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.25), rgba(15, 15, 15, 0.25)), url('../images/Rectangle15.jpg'), #C4C4C4;
+    background-size: cover;
+    background-position: center;
+}
+
+.ftr1 > div {
+    width: 35%;
+    height: 50%;
+}
+
+h4 {
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.pftr {
+    text-align: start;
+}
+
+.aftr {
+    color: #D0D0D0;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 10px 20px;
+}
+
+.ulftr {
+    list-style-type: none;
+}
+
+.ulftr li {
+    margin: 0 20px 20px 0;
+    background-color: #000;
+    display: inline-block;
+    padding: 10px;
+}
+
+input {
+    height: 42px;
+    width: 210px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#btn {
+    background-color: #0F0F0F;
+    color: #fff;    
+}
+
+/* footer2 */
+
+.ftr2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0F0F0F;
+}
+
+.ftr2 > span {
+    color: #D0D0D0;
+    font-size: 12px;
+}
+/* ------------------------------------------- */
+/* media queries */
+
+@media screen and (max-width: 770px) {
+    th {
+        height: 145px;
+        width: 120px;
+    }
+    td {
+        font-size: 14px;
+    }
+    .clock {
+        height: 107px;
+        width: 107px;
+    }
+    .tbl1 {
+        display: none;
+    }
+
+    .tbl2 {
+        display: block;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .button {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .year {
+        font-size: 16px;
+    }
+    input {
+        height: 21px;
+        width: 105px;
+    }
+    .ulftr li {
+       margin: 0 5px 5px 0; 
+    }
+    .aftr {
+        padding: 0;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .logo-min {
+        font-size: 18px;
+    }
+    nav ul li{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:440px) {
+    th {
+        width: 110px;
+        height: 110px;
+    }
+    .tbl3 {
+        display: none;
+    }
+
+    .tbl4 {
+        display: block;
+    }
+}

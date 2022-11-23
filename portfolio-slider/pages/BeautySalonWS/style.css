@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+    margin: 0;padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #110801;
+  background-color: rgba(224, 229, 203, 0.68);
+}
+
+img {
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Inter', sans-serif;
+  color: #eb2020;
+  text-align: center;
+  margin: 0;padding: 0;
+}
+
+h2 {
+  margin-top: 4rem;
+  color: #F8FAF3;
+}
+
+h4 {
+  margin-bottom: 2rem;
+}
+
+h3 {
+  color: #eeeeee ;
+}
+
+p {
+  margin: 0;padding: 0;
+  font-size: 1rem; 
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* navbar */
+
+.navbar {
+  background: rgba(224, 229, 204, 0.68);
+  background: linear-gradient(to left,rgba(126, 136, 88, 0.575),rgba(111, 129, 37, 0.685));
+  backdrop-filter: blur(10);
+}
+
+.navbar-brand h1 {
+  color: #e93939;
+  font-size: 2rem;
+}
+
+.navbar-brand:hover h1 {
+  color: #eb2020;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #eb2020;
+}
+
+.nav-link:active {
+  color: #F8FAF3;
+}
+
+/* main */
+
+#main {
+  background: linear-gradient(to right, rgba(150, 168, 74, 0.192),rgba(85, 104, 7, 0.788)), url(./img/bty.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+
+  height: 60px;
+  width: 200px;
+  background: linear-gradient(to bottom,rgb(189, 58, 58),rgba(247, 78, 78, 0.781));
+  backdrop-filter: blur(10);
+  font-size: 1.2rem;
+  box-shadow: 2px 2px 4px #553535;
+}
+
+.btn-box:hover {
+  background: linear-gradient(to bottom,#e65151e1,rgba(211, 42, 42, 0.925));
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background: url('./img/icon/viber.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* main media */
+
+@media screen and (max-width: 768px) {
+ #main {
+  background: linear-gradient(to right, rgba(140, 163, 45, 0.192),rgba(85, 104, 7, 0.788));
+  padding-top: 10rem;
+ }
+}
+
+/* Carousel */
+
+.my-carousel {
+  padding: 0;
+  margin: 0;
+}
+
+.my-carousel .carousel-item {
+  display: flex;
+  min-height: 350px;
+}
+
+.my-carousel .carousel-item img {
+  object-fit: cover;
+}
+
+/* About */
+
+.card-text {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .my-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* footer */
+
+i {
+  margin-right: .5rem;
+}
