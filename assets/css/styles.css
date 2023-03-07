@@ -23,8 +23,6 @@
     --scroll-bar-color: hsl(var(--hue-color),12%,90%);
     --scroll-tumb-color: hsl(var(--hue-color),12%,80%);
 
-
-
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
 
@@ -323,16 +321,10 @@ img {
     margin-bottom: var(--mb-2);
 }
 
-/* .home__scroll {
-    /* display: none; 
-} */
-
 .home__scroll-button {
     color: var(--first-color);
     transition: .3s;
 }
-
-
 
 .home__scroll-button:hover {
     transform: translateY(.25rem);

@@ -168,3 +168,74 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== SCROLL REVEAL ANIMATION ====================*/ 
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+})
+
+// Scroll about //
+sr.reveal('.main', {});
+sr.reveal('.home', {
+   delay: 200,
+});
+sr.reveal('.home__social', {
+   interval: 12,
+});
+sr.reveal('.home__img', {
+   interval: 32,
+});
+sr.reveal('.home__scroll', {
+   interval: 22,
+   delay: 300
+});
+
+sr.reveal('.about', {
+   delay: 200,
+});
+sr.reveal('.section__title', {
+   delay: 200,
+});
+sr.reveal('.about__buttons', {
+   delay: 300,
+});
+sr.reveal('.skills__container', {
+   delay: 300,
+});
+sr.reveal('.section__subtitle', {
+   delay: 300,
+});
+sr.reveal('.qualification__container', {
+   delay: 300,
+});
+sr.reveal('.qualification__container', {
+   delay: 400,
+});
+sr.reveal('.services__container', {
+   delay: 300,
+});
+
+sr.reveal('.project', {
+   delay: 200,
+});
+sr.reveal('.button--flex ', {
+   delay: 300,
+});
+sr.reveal('.footer', {
+    origin: 'bottom',
+   delay: 500,
+});
+sr.reveal('.footer__container', {
+   delay: 300,
+   interval: 66
+
+});
+sr.reveal('.footer__links', {
+    origin: 'left',
+   delay: 400,
+   interval: 66
+});
+

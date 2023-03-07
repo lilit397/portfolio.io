@@ -92,7 +92,9 @@ textarea:focus{
 a{
     text-decoration: none;
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: .5rem;
+    position: fixed;
+    top: 0.5rem;
     display: block;
     height: 3rem;
     width: 6rem;
@@ -101,6 +103,8 @@ a{
     background: hsl(320,69%,61%);
     border-radius: 5px;
     color: #fff;
+    z-index: 10;
+    box-shadow: 1px 1px 2px #eee;
 }
 
 a:hover {
